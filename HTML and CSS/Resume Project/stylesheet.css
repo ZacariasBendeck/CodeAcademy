@@ -1,0 +1,65 @@
+h4 {
+    color:white;
+}
+
+#header {
+    border:1px solid blue;
+    border-radius:5px;
+    background-color:#668284;
+    height:60px;
+    width:99%;
+    margin-bottom:10px;
+    position:fixed;
+    z-index:1;    
+}
+
+#header h4 {
+    display:inline;
+}
+#name {
+    float:left;
+}
+
+#email {
+    float:right;
+}
+
+.left {
+    position:relative;
+    border:1px solid blue;
+    border-radius:5px;
+    background-color:#B9D7D9;
+    float:left;
+    height:400px;
+    width:10%;
+    display:inline;
+    margin-top:70px;
+    margin-bottom:10px
+}
+
+.right {
+    position:relative;
+    border:1px solid blue;
+    border-radius:5px;
+    background-color:#F4EBC3;
+    height:400px;
+    width:88%;
+    float:right;
+    display:inline;
+    margin-top:70px;
+    margin-bottom:10px
+}
+
+#footer {
+    position:relative;
+    border:1px solid blue;
+    border-radius:5px;
+    height:50px;
+    width:99%;
+    background-color:#668284;
+    clear:both;
+}
+
+#address {
+    text-align:center;
+}
